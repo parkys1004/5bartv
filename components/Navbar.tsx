@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-black/80 backdrop-blur-md py-4' : 'bg-transparent py-8'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold tracking-tighter text-white">
-          STORYTELLER<span className="text-gray-500">.</span>
+          5barTV<span className="text-gray-500">.</span>
         </Link>
         <div className="flex gap-8">
           {navLinks.map((link) => (
